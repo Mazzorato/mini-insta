@@ -34,11 +34,11 @@ require_once 'core.php';
     <h1>MiniInsta</h1>
 
     <nav class="nav">
-    <a href="index.php" title="Accueil"><i class="fas fa-house"></i></a>
-    <a href="profil.php" title="Profil"><i class="fas fa-user"></i></a>
-    <a href="connexion.php" title="Connexion"><i class="fas fa-right-to-bracket"></i></a>
-    <a href="parametre.php" title="Paramètres"><i class="fas fa-cog"></i></a>
-</nav>
+        <a href="index.php" title="Accueil"><i class="fas fa-house"></i></a>
+        <a href="profil.php" title="Profil"><i class="fas fa-user"></i></a>
+        <a href="connexion.php" title="Connexion"><i class="fas fa-right-to-bracket"></i></a>
+        <a href="parametre.php" title="Paramètres"><i class="fas fa-cog"></i></a>
+    </nav>
     </div>
 
 
