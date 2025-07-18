@@ -1,0 +1,153 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    background-color: blueviolet;
+    color: white;
+    font-family: Bungee;
+    text-align: center;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: mediumorchid;
+    padding: 20px;
+    gap: 2rem;
+}
+
+
+.nav a {
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+.nav a:hover{
+    color: #ffd700;
+}
+
+.input-text {
+    width: 10rem;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+/* Empêche l'affichage du nom de fichier */
+.file-wrapper {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+}
+
+input[type="file"] {
+    font-family: inherit;
+    appearance: none;
+    cursor: pointer;
+}
+
+/* Supprime le texte qui s'affiche à droite du bouton "Parcourir" */
+input[type="file"]::-webkit-file-upload-button {
+    cursor: pointer;
+}
+
+input[type="file"]::file-selector-button {
+    padding: 10px 20px;
+    background-color: #030101;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+input[type="file"]::file-selector-button:hover {
+    background-color: #45a049;
+}
+
+/* Bouton Envoyer */
+.submit-button {
+    background-color: #020508;
+    color: white;
+    padding: 10px 20px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.submit-button:hover {
+    background-color: #0056b3;
+}
+
+
+.uploads img {
+    width: 100%;
+    max-width: 400px;
+}
+
+
+.gallery {
+    display: grid;
+
+    gap: 20px;
+    padding: 20px;
+    width: 90%;
+    margin: auto;
+    border: 10px;
+
+}
+
+.photo-up {
+    text-align: center;
+    border-radius: 12px;
+    color: black;
+    padding: 10px;
+    border-width: 10px;
+}
+
+
+.photo-up p {
+    font-size: 0.9rem;
+}
+.photo-up img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 7);
+    background-color: #020508;
+    transition: transform 1s;
+}
+
+.photo-up img:hover {
+    transform: scale(1.05);
+    object-fit: cover;
+}
+
+.like-button {
+    margin-top: 10px;
+    background-color: transparent;
+    border: 2px solid #ff3b3b;
+    color: #ff3b3b;
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3 ease;
+}
+
+.like-button:hover {
+    background-color: #ff3b3b;
+    color: white;
+}
+
